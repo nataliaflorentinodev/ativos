@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ativos Precatórios — Canais oficiais</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@800&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#12121c;--card:#1b1c2b;--line:#2c2e44;--blue:#7aa7dc;--txt:#e6e8f0;--mut:#9095ad;--ok:#5fc59a}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+  .card{width:100%;max-width:440px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:32px 24px}
+  h1{text-align:center;color:#6a82ff;font-family:Poppins,Inter,sans-serif;font-weight:800;font-size:46px;letter-spacing:-1.3px;line-height:1}
+  .sub{text-align:center;color:var(--txt);font-size:15px;font-weight:500;margin-top:8px}
+  .label{font-size:11px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--blue);margin:26px 0 10px;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  a.btn{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--txt);background:#23253a;border:1px solid var(--line);border-radius:12px;padding:13px 14px;margin-bottom:10px;transition:.15s}
+  a.btn:hover,a.btn:active{border-color:var(--blue);background:#282b44}
+  .ic{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:#2f3350}
+  .ic svg{width:20px;height:20px;fill:none;stroke:var(--blue);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .t{font-size:15px;font-weight:600}
+  .d{font-size:12px;color:var(--mut);margin-top:2px}
+  .arrow{margin-left:auto;color:var(--mut)}
+  .cnpj{background:#23253a;border:1px solid var(--line);border-radius:12px;padding:14px}
+  .cnpj .num{font-size:20px;font-weight:600;letter-spacing:.3px;font-variant-numeric:tabular-nums;margin-top:2px}
+  .row{display:flex;gap:8px;margin-top:12px}
+  .row button,.row a{flex:1;font:inherit;font-size:13px;font-weight:500;padding:10px;border-radius:9px;border:1px solid var(--line);background:#2f3350;color:var(--txt);cursor:pointer;text-align:center;text-decoration:none}
+  .row button.done{color:var(--ok);border-color:var(--ok)}
+</style>
+</head>
+<body>
+<main class="card">
+  <h1>ativos</h1>
+  <p class="sub">antecipação de precatórios</p>
+
+  <div class="label">Canais oficiais</div>
+
+  <a class="btn" href="https://ativos.com" target="_blank" rel="noopener">
+    <span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span>
+    <span><div class="t">Site oficial</div><div class="d">ativos.com</div></span><span class="arrow">›</span>
+  </a>
+
+  <a class="btn" href="https://www.instagram.com/ativosprecatorios/" target="_blank" rel="noopener">
+    <span class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6"/></svg></span>
+    <span><div class="t">Instagram</div><div class="d">@ativosprecatorios</div></span><span class="arrow">›</span>
+  </a>
+
+  <div class="label">Dados cadastrais</div>
+  <div class="cnpj">
+    <div class="d">CNPJ</div>
+    <div class="num">51.221.966/0001-90</div>
+    <div class="row">
+      <button id="copy" type="button">Copiar CNPJ</button>
+      <a href="https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp" target="_blank" rel="noopener">Consultar na Receita</a>
+    </div>
+  </div>
+
+  <div class="label">Na imprensa</div>
+  <a class="btn" href="https://www.diariodepernambuco.com.br/economia/2025/09/11696274-mercado-de-precatorios-e-uma-alternativa-para-quem-deseja-antecipar-os-beneficios.html" target="_blank" rel="noopener">
+    <span class="ic"><svg viewBox="0 0 24 24"><path d="M4 5h13v14H6a2 2 0 0 1-2-2zM17 9h3v8a2 2 0 0 1-2 2M8 9h5M8 13h5"/></svg></span>
+    <span><div class="t">Diario de Pernambuco</div><div class="d">Como funciona a antecipação de precatórios</div></span><span class="arrow">›</span>
+  </a>
+  <a class="btn" href="https://www.folhape.com.br/economia/movimento-economico/nova-regra-dos-precatorios-antecipa-prazos-e-adia-pagamentos/425654/" target="_blank" rel="noopener">
+    <span class="ic"><svg viewBox="0 0 24 24"><path d="M4 5h13v14H6a2 2 0 0 1-2-2zM17 9h3v8a2 2 0 0 1-2 2M8 9h5M8 13h5"/></svg></span>
+    <span><div class="t">Folha de Pernambuco</div><div class="d">Ativos explica a nova regra dos precatórios</div></span><span class="arrow">›</span>
+  </a>
+  <a class="btn" href="https://movimentoeconomico.com.br/geral/redacao/2026/04/28/startup-aposta-em-ia-para-destravar-mercado-bilionario-de-precatorios/" target="_blank" rel="noopener">
+    <span class="ic"><svg viewBox="0 0 24 24"><path d="M4 5h13v14H6a2 2 0 0 1-2-2zM17 9h3v8a2 2 0 0 1-2 2M8 9h5M8 13h5"/></svg></span>
+    <span><div class="t">Movimento Econômico</div><div class="d">Ativos lança plataforma com inteligência artificial</div></span><span class="arrow">›</span>
+  </a>
+</main>
+<script>
+  const b=document.getElementById('copy');
+  b.addEventListener('click',async()=>{
+    const v='51.221.966/0001-90';
+    try{await navigator.clipboard.writeText(v)}catch(e){
+      try{const t=document.createElement('textarea');t.value=v;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove()}catch(_){}
+    }
+    b.textContent='Copiado ✓';b.classList.add('done');
+    setTimeout(()=>{b.textContent='Copiar CNPJ';b.classList.remove('done')},2000);
+  });
+</script>
+</body>
+</html>
